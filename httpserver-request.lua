@@ -9,7 +9,7 @@ local function validateMethod(method)
 end
 
 local function uriToFilename(uri)
-   return "http/" .. string.sub(uri, 2, -1)
+   return "http_" .. string.sub(uri, 2, -1)
 end
 
 local function parseArgs(args)
